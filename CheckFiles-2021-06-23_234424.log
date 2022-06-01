@@ -1,0 +1,261 @@
+2021-06-23 23:44:25.261 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Willkommen beim FileCheck
+2021-06-23 23:44:25.276 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Beenden des Programms mit <ESCAPE>
+2021-06-23 23:44:25.350 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - --------------------------------------------------
+
+2021-06-23 23:44:25.356 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Optionen: 
+2021-06-23 23:44:25.361 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - 1 - Initiiere FileCheck
+2021-06-23 23:44:25.363 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - 2 - Vergleich der Dateien 2er Ordner
+2021-06-23 23:44:25.367 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - 3 - Ausgabe der Ordnerstruktur zu Startpfad
+2021-06-23 23:44:27.732 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Bitte zu untersuchenden Startpfad eingeben oder <ESCAPE> um ins Hauptmenü zurückzukehren:
+
+2021-06-23 23:44:32.166 [main.CmdMain.main()] DEBUG classes.FileStructure - csv_path_default: C:/Users/Armin/Desktop/
+2021-06-23 23:44:32.166 [main.CmdMain.main()] DEBUG classes.FileStructure - csv_name_default: checkFiles.csv
+2021-06-23 23:44:32.167 [main.CmdMain.main()] DEBUG classes.FileStructure - start_path_default: C:/Users/Armin/Desktop/Test1/
+2021-06-23 23:44:32.167 [main.CmdMain.main()] DEBUG classes.FileStructure - csv_columns_files_list: path;lastModifiedTime;isRegularFile;isDir;isSymbolicLink;isReadable;isHidden;size
+2021-06-23 23:44:32.167 [main.CmdMain.main()] DEBUG classes.FileStructure - csv_columns_files_equals: name;size_this;size_other
+2021-06-23 23:44:32.167 [main.CmdMain.main()] WARN  classes.FileStructure - Momentan kein eigener CSV-Pfad angegeben - verwende Default: C:/Users/Armin/Desktop/
+2021-06-23 23:44:32.171 [main.CmdMain.main()] INFO  classes.FileStructure - set start_path: C:\Users\Armin\Desktop\Test1\
+2021-06-23 23:44:32.173 [main.CmdMain.main()] INFO  classes.FileStructure - set csvPath: null
+2021-06-23 23:44:32.183 [main.CmdMain.main()] INFO  classes.FileStructure - set csvName: null
+2021-06-23 23:44:32.196 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Ebay Sicherheitsfragen 16022020.PNG
+2021-06-23 23:44:32.200 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\iTunes.lnk
+2021-06-23 23:44:32.204 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\licenses\NOTICE
+2021-06-23 23:44:32.208 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Opera-Browser.lnk
+2021-06-23 23:44:32.212 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Failed to access file: C:\Users\Armin\Desktop\Test1\t
+2021-06-23 23:44:32.217 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Failed to access file: C:\Users\Armin\Desktop\Test1\te
+2021-06-23 23:44:32.221 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.html
+2021-06-23 23:44:32.224 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.txt
+2021-06-23 23:44:32.228 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\vcredist_x64.exe
+2021-06-23 23:44:32.234 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\vcredist_x86.exe
+2021-06-23 23:44:32.239 [main.CmdMain.main()] DEBUG utils.DirectoryTraversal - Traversal beendet!
+2021-06-23 23:44:32.291 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\licenses\NOTICE
+2021-06-23 23:44:32.295 [main.CmdMain.main()] DEBUG utils.DirectoryTraversal - Traversal beendet!
+2021-06-23 23:44:32.297 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.html
+2021-06-23 23:44:32.299 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.txt
+2021-06-23 23:44:32.302 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\vcredist_x64.exe
+2021-06-23 23:44:32.305 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\vcredist_x86.exe
+2021-06-23 23:44:32.308 [main.CmdMain.main()] DEBUG utils.DirectoryTraversal - Traversal beendet!
+2021-06-23 23:44:32.309 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Failed to access file: C:\Users\Armin\Desktop\Test1\t
+2021-06-23 23:44:32.313 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Failed to access file: C:\Users\Armin\Desktop\Test1\te
+2021-06-23 23:44:32.315 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Ebay Sicherheitsfragen 16022020.PNG
+2021-06-23 23:44:32.318 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\iTunes.lnk
+2021-06-23 23:44:32.323 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\licenses\NOTICE
+2021-06-23 23:44:32.330 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Opera-Browser.lnk
+2021-06-23 23:44:32.333 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Failed to access file: C:\Users\Armin\Desktop\Test1\t
+2021-06-23 23:44:32.337 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Failed to access file: C:\Users\Armin\Desktop\Test1\te
+2021-06-23 23:44:32.340 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.html
+2021-06-23 23:44:32.347 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.txt
+2021-06-23 23:44:32.352 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\vcredist_x64.exe
+2021-06-23 23:44:32.358 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\vcredist_x86.exe
+2021-06-23 23:44:32.364 [main.CmdMain.main()] DEBUG utils.DirectoryTraversal - Traversal beendet!
+2021-06-23 23:44:32.364 [main.CmdMain.main()] WARN  classes.FileStructure - Ordnergrösse gesamt bereits mit Grösse > 0 vorhanden:
+2021-06-23 23:44:32.366 [main.CmdMain.main()] WARN  classes.FileStructure - Überschreibe für C:\Users\Armin\Desktop\Test1 alten Wert 4.0mit: 10739079
+
+2021-06-23 23:44:32.373 [main.CmdMain.main()] DEBUG utils.DirectoryTraversal - Traversal beendet!
+2021-06-23 23:44:32.375 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.html
+2021-06-23 23:44:32.379 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.txt
+2021-06-23 23:44:32.383 [main.CmdMain.main()] DEBUG utils.DirectoryTraversal - Traversal beendet!
+2021-06-23 23:44:32.384 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - 
+--------------------------------------------------
+
+2021-06-23 23:44:32.413 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - 
+Ergebnis der Berechnung: 
+--------------------------------------------------
+C:\Users\Armin\Desktop\Test1;2021-06-23 23:13:48;false;true;false;true;false;10487.39 KB
+C:\Users\Armin\Desktop\Test1\Ebay Sicherheitsfragen 16022020.PNG;2020-02-16 18:54:12;true;false;false;false;false;206.32 KB
+C:\Users\Armin\Desktop\Test1\Microsoft Edge.lnk;2021-04-03 11:49:34;true;false;false;true;false;2.22 KB
+C:\Users\Armin\Desktop\Test1\Opera-Browser.lnk;2021-01-03 13:32:40;true;false;false;false;false;1.37 KB
+C:\Users\Armin\Desktop\Test1\Test1_inner;2021-04-07 14:53:50;false;true;false;true;false;9489.0 KB
+C:\Users\Armin\Desktop\Test1\Test1_inner\readmes;2021-06-02 00:09:16;false;true;false;true;false;24.33 KB
+C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.html;2017-10-12 06:12:58;true;false;false;false;false;12.42 KB
+C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.txt;2017-10-12 06:12:58;true;false;false;false;false;11.91 KB
+C:\Users\Armin\Desktop\Test1\Test1_inner\vcredist_x64.exe;2017-10-12 06:12:58;true;false;false;false;false;5085.84 KB
+C:\Users\Armin\Desktop\Test1\Test1_inner\vcredist_x86.exe;2017-10-12 06:12:58;true;false;false;false;false;4374.84 KB
+C:\Users\Armin\Desktop\Test1\VFS-FileStructure.csv;2021-06-18 19:37:25;true;false;false;true;false;215.17 KB
+C:\Users\Armin\Desktop\Test1\dadqwrqw.csv;2021-06-23 23:09:15;true;false;false;true;false;2.41 KB
+C:\Users\Armin\Desktop\Test1\dqqqqqqqqqqqqqq.csv;2021-06-23 22:51:12;true;false;false;true;false;2.31 KB
+C:\Users\Armin\Desktop\Test1\faesfwerfwer.csv;2021-06-23 23:12:34;true;false;false;true;false;2.5 KB
+C:\Users\Armin\Desktop\Test1\iTunes.lnk;2020-11-18 13:35:31;true;false;false;false;false;1.79 KB
+C:\Users\Armin\Desktop\Test1\licenses;2021-04-07 14:53:58;false;true;false;true;false;213.24 KB
+C:\Users\Armin\Desktop\Test1\licenses\LICENSE;2017-10-12 06:12:58;true;false;false;true;true;207.36 KB
+C:\Users\Armin\Desktop\Test1\licenses\NOTICE;2017-10-12 06:12:58;true;false;false;false;true;5.89 KB
+C:\Users\Armin\Desktop\Test1\sdqd.csv;2021-06-23 23:13:48;true;false;false;true;false;2.6 KB
+C:\Users\Armin\Desktop\Test1\t;2021-05-29 19:55:48;false;true;false;false;false;0.0 KB
+C:\Users\Armin\Desktop\Test1\t.csv;2021-06-19 13:50:16;true;false;false;true;false;2.2 KB
+C:\Users\Armin\Desktop\Test1\t2;2021-05-30 09:59:33;false;true;false;true;false;346.33 KB
+C:\Users\Armin\Desktop\Test1\t2\Costa Rican Frog.jpg;2010-12-21 23:36:02;true;false;false;true;false;346.33 KB
+C:\Users\Armin\Desktop\Test1\te;2021-05-30 10:01:55;false;true;false;false;false;0.0 KB
+
+2021-06-23 23:44:32.463 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - 
+--------------------------------------------------
+
+2021-06-23 23:44:32.466 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Anzahl Dateiobjekte gesamt: 24
+Anzahl Dateien: 17
+Anzahl Ordner: 7
+Lesbare Dateiobjekte: 14
+Nicht lesbare Dateiobjekte gesamt: 10
+Nicht lesbare Ordner mit ggf. weiteren enthaltenen Dateien: 2
+2021-06-23 23:44:32.475 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - 
+--------------------------------------------------
+
+2021-06-23 23:44:32.478 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - E: Export des Ergebnisses im CSV-Format 
+2021-06-23 23:44:32.479 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - <ESCAPE>: Zurück ins Hauptmenü
+
+2021-06-23 23:44:34.280 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Bitte Eingabe wiederholen... J/N ?
+2021-06-23 23:44:34.282 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - E: Export des Ergebnisses im CSV-Format 
+2021-06-23 23:44:34.284 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - <ESCAPE>: Zurück ins Hauptmenü
+
+2021-06-23 23:44:36.423 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Bitte Sortierung der CSV wählen:
+1: Ohne Sortierung
+2: Modified Date aufsteigend
+3: Modified Date absteigend
+4: Dateiname alphabetisch aufsteigend
+5: Dateiname alphabetisch absteigend ?
+<ESCAPE>: Zurück ins Hauptmenü
+
+2021-06-23 23:44:37.941 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Bitte Pfad für den CSV-Export angeben:
+<ESCAPE>: Zurück ins Hauptmenü
+
+2021-06-23 23:44:40.819 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Bitte Dateinamen für den CSV-Export angeben: 
+<ESCAPE>: Zurück ins Hauptmenü
+
+2021-06-23 23:44:42.226 [main.CmdMain.main()] INFO  classes.FileStructure - CSV erstellt
+2021-06-23 23:44:42.247 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Willkommen beim FileCheck
+2021-06-23 23:44:42.248 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Beenden des Programms mit <ESCAPE>
+2021-06-23 23:44:42.252 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - --------------------------------------------------
+
+2021-06-23 23:44:42.254 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Optionen: 
+2021-06-23 23:44:42.255 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - 1 - Initiiere FileCheck
+2021-06-23 23:44:42.256 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - 2 - Vergleich der Dateien 2er Ordner
+2021-06-23 23:44:42.257 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - 3 - Ausgabe der Ordnerstruktur zu Startpfad
+2021-06-23 23:44:59.398 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Bitte zu untersuchenden Startpfad eingeben oder <ESCAPE> um ins Hauptmenü zurückzukehren:
+
+2021-06-23 23:45:02.616 [main.CmdMain.main()] WARN  classes.FileStructure - Momentan kein eigener CSV-Pfad angegeben - verwende Default: C:/Users/Armin/Desktop/
+2021-06-23 23:45:02.619 [main.CmdMain.main()] INFO  classes.FileStructure - set start_path: C:\Users\Armin\Desktop\Test1\
+2021-06-23 23:45:02.620 [main.CmdMain.main()] INFO  classes.FileStructure - set csvPath: null
+2021-06-23 23:45:02.621 [main.CmdMain.main()] INFO  classes.FileStructure - set csvName: null
+2021-06-23 23:45:02.625 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Ebay Sicherheitsfragen 16022020.PNG
+2021-06-23 23:45:02.630 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\iTunes.lnk
+2021-06-23 23:45:02.639 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\licenses\NOTICE
+2021-06-23 23:45:02.644 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Opera-Browser.lnk
+2021-06-23 23:45:02.651 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Failed to access file: C:\Users\Armin\Desktop\Test1\t
+2021-06-23 23:45:02.657 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Failed to access file: C:\Users\Armin\Desktop\Test1\te
+2021-06-23 23:45:02.664 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.html
+2021-06-23 23:45:02.673 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.txt
+2021-06-23 23:45:02.680 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\vcredist_x64.exe
+2021-06-23 23:45:02.684 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\vcredist_x86.exe
+2021-06-23 23:45:02.688 [main.CmdMain.main()] DEBUG utils.DirectoryTraversal - Traversal beendet!
+2021-06-23 23:45:02.757 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Failed to access file: C:\Users\Armin\Desktop\Test1\t
+2021-06-23 23:45:02.759 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Failed to access file: C:\Users\Armin\Desktop\Test1\te
+2021-06-23 23:45:02.765 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.html
+2021-06-23 23:45:02.768 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.txt
+2021-06-23 23:45:02.771 [main.CmdMain.main()] DEBUG utils.DirectoryTraversal - Traversal beendet!
+2021-06-23 23:45:02.773 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\licenses\NOTICE
+2021-06-23 23:45:02.778 [main.CmdMain.main()] DEBUG utils.DirectoryTraversal - Traversal beendet!
+2021-06-23 23:45:02.780 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.html
+2021-06-23 23:45:02.784 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.txt
+2021-06-23 23:45:02.787 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\vcredist_x64.exe
+2021-06-23 23:45:02.791 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\vcredist_x86.exe
+2021-06-23 23:45:02.801 [main.CmdMain.main()] DEBUG utils.DirectoryTraversal - Traversal beendet!
+2021-06-23 23:45:02.805 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Ebay Sicherheitsfragen 16022020.PNG
+2021-06-23 23:45:02.810 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\iTunes.lnk
+2021-06-23 23:45:02.815 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\licenses\NOTICE
+2021-06-23 23:45:02.820 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Opera-Browser.lnk
+2021-06-23 23:45:02.829 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Failed to access file: C:\Users\Armin\Desktop\Test1\t
+2021-06-23 23:45:02.833 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Failed to access file: C:\Users\Armin\Desktop\Test1\te
+2021-06-23 23:45:02.835 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.html
+2021-06-23 23:45:02.840 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.txt
+2021-06-23 23:45:02.848 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\vcredist_x64.exe
+2021-06-23 23:45:02.852 [main.CmdMain.main()] ERROR utils.DirectoryTraversal - Visiting but found to be nonReadable: C:\Users\Armin\Desktop\Test1\Test1_inner\vcredist_x86.exe
+2021-06-23 23:45:02.861 [main.CmdMain.main()] DEBUG utils.DirectoryTraversal - Traversal beendet!
+2021-06-23 23:45:02.862 [main.CmdMain.main()] WARN  classes.FileStructure - Ordnergrösse gesamt bereits mit Grösse > 0 vorhanden:
+2021-06-23 23:45:02.865 [main.CmdMain.main()] WARN  classes.FileStructure - Überschreibe für C:\Users\Armin\Desktop\Test1 alten Wert 4.0mit: 10741832
+
+2021-06-23 23:45:02.871 [main.CmdMain.main()] DEBUG utils.DirectoryTraversal - Traversal beendet!
+2021-06-23 23:45:02.872 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - 
+--------------------------------------------------
+
+2021-06-23 23:45:02.913 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - 
+Ergebnis der Berechnung: 
+--------------------------------------------------
+C:\Users\Armin\Desktop\Test1;2021-06-23 23:44:42;false;true;false;true;false;10490.08 KB
+C:\Users\Armin\Desktop\Test1\Ebay Sicherheitsfragen 16022020.PNG;2020-02-16 18:54:12;true;false;false;false;false;206.32 KB
+C:\Users\Armin\Desktop\Test1\Microsoft Edge.lnk;2021-04-03 11:49:34;true;false;false;true;false;2.22 KB
+C:\Users\Armin\Desktop\Test1\Opera-Browser.lnk;2021-01-03 13:32:40;true;false;false;false;false;1.37 KB
+C:\Users\Armin\Desktop\Test1\Test1_inner;2021-04-07 14:53:50;false;true;false;true;false;9489.0 KB
+C:\Users\Armin\Desktop\Test1\Test1_inner\readmes;2021-06-02 00:09:16;false;true;false;true;false;24.33 KB
+C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.html;2017-10-12 06:12:58;true;false;false;false;false;12.42 KB
+C:\Users\Armin\Desktop\Test1\Test1_inner\readmes\readme_de.txt;2017-10-12 06:12:58;true;false;false;false;false;11.91 KB
+C:\Users\Armin\Desktop\Test1\Test1_inner\vcredist_x64.exe;2017-10-12 06:12:58;true;false;false;false;false;5085.84 KB
+C:\Users\Armin\Desktop\Test1\Test1_inner\vcredist_x86.exe;2017-10-12 06:12:58;true;false;false;false;false;4374.84 KB
+C:\Users\Armin\Desktop\Test1\VFS-FileStructure.csv;2021-06-18 19:37:25;true;false;false;true;false;215.17 KB
+C:\Users\Armin\Desktop\Test1\dadqwrqw.csv;2021-06-23 23:09:15;true;false;false;true;false;2.41 KB
+C:\Users\Armin\Desktop\Test1\dqqqqqqqqqqqqqq.csv;2021-06-23 22:51:12;true;false;false;true;false;2.31 KB
+C:\Users\Armin\Desktop\Test1\faesfwerfwer.csv;2021-06-23 23:12:34;true;false;false;true;false;2.5 KB
+C:\Users\Armin\Desktop\Test1\iTunes.lnk;2020-11-18 13:35:31;true;false;false;false;false;1.79 KB
+C:\Users\Armin\Desktop\Test1\licenses;2021-04-07 14:53:58;false;true;false;true;false;213.24 KB
+C:\Users\Armin\Desktop\Test1\licenses\LICENSE;2017-10-12 06:12:58;true;false;false;true;true;207.36 KB
+C:\Users\Armin\Desktop\Test1\licenses\NOTICE;2017-10-12 06:12:58;true;false;false;false;true;5.89 KB
+C:\Users\Armin\Desktop\Test1\re.csv;2021-06-23 23:44:42;true;false;false;true;false;2.69 KB
+C:\Users\Armin\Desktop\Test1\sdqd.csv;2021-06-23 23:13:48;true;false;false;true;false;2.6 KB
+C:\Users\Armin\Desktop\Test1\t;2021-05-29 19:55:48;false;true;false;false;false;0.0 KB
+C:\Users\Armin\Desktop\Test1\t.csv;2021-06-19 13:50:16;true;false;false;true;false;2.2 KB
+C:\Users\Armin\Desktop\Test1\t2;2021-05-30 09:59:33;false;true;false;true;false;346.33 KB
+C:\Users\Armin\Desktop\Test1\t2\Costa Rican Frog.jpg;2010-12-21 23:36:02;true;false;false;true;false;346.33 KB
+C:\Users\Armin\Desktop\Test1\te;2021-05-30 10:01:55;false;true;false;false;false;0.0 KB
+
+2021-06-23 23:45:02.978 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - 
+--------------------------------------------------
+
+2021-06-23 23:45:02.981 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Anzahl Dateiobjekte gesamt: 25
+Anzahl Dateien: 18
+Anzahl Ordner: 7
+Lesbare Dateiobjekte: 15
+Nicht lesbare Dateiobjekte gesamt: 10
+Nicht lesbare Ordner mit ggf. weiteren enthaltenen Dateien: 2
+2021-06-23 23:45:02.996 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - 
+--------------------------------------------------
+
+2021-06-23 23:45:03.004 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - E: Export des Ergebnisses im CSV-Format 
+2021-06-23 23:45:03.005 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - <ESCAPE>: Zurück ins Hauptmenü
+
+2021-06-23 23:45:04.825 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Bitte Eingabe wiederholen... J/N ?
+2021-06-23 23:45:04.829 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - E: Export des Ergebnisses im CSV-Format 
+2021-06-23 23:45:04.834 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - <ESCAPE>: Zurück ins Hauptmenü
+
+2021-06-23 23:45:10.865 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Bitte Eingabe wiederholen... J/N ?
+2021-06-23 23:45:10.868 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - E: Export des Ergebnisses im CSV-Format 
+2021-06-23 23:45:10.868 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - <ESCAPE>: Zurück ins Hauptmenü
+
+2021-06-23 23:45:13.826 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Bitte Eingabe wiederholen... J/N ?
+2021-06-23 23:45:13.829 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - E: Export des Ergebnisses im CSV-Format 
+2021-06-23 23:45:13.830 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - <ESCAPE>: Zurück ins Hauptmenü
+
+2021-06-23 23:45:18.607 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Bitte Eingabe wiederholen... J/N ?
+2021-06-23 23:45:18.608 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - E: Export des Ergebnisses im CSV-Format 
+2021-06-23 23:45:18.609 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - <ESCAPE>: Zurück ins Hauptmenü
+
+2021-06-23 23:45:21.328 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Bitte Sortierung der CSV wählen:
+1: Ohne Sortierung
+2: Modified Date aufsteigend
+3: Modified Date absteigend
+4: Dateiname alphabetisch aufsteigend
+5: Dateiname alphabetisch absteigend ?
+<ESCAPE>: Zurück ins Hauptmenü
+
+2021-06-23 23:45:23.487 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Bitte Pfad für den CSV-Export angeben:
+<ESCAPE>: Zurück ins Hauptmenü
+
+2021-06-23 23:45:27.052 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Bitte Dateinamen für den CSV-Export angeben: 
+<ESCAPE>: Zurück ins Hauptmenü
+
+2021-06-23 23:45:31.285 [main.CmdMain.main()] INFO  classes.FileStructure - CSV erstellt
+2021-06-23 23:45:31.296 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Willkommen beim FileCheck
+2021-06-23 23:45:31.298 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Beenden des Programms mit <ESCAPE>
+2021-06-23 23:45:31.314 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - --------------------------------------------------
+
+2021-06-23 23:45:31.322 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - Optionen: 
+2021-06-23 23:45:31.325 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - 1 - Initiiere FileCheck
+2021-06-23 23:45:31.327 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - 2 - Vergleich der Dateien 2er Ordner
+2021-06-23 23:45:31.327 [main.CmdMain.main()] INFO  classes.CheckFilesCmdMenu - 3 - Ausgabe der Ordnerstruktur zu Startpfad
+2021-06-23 23:45:33.005 [main.CmdMain.main()] INFO  main.CmdMain - Programmabbruch durch User ...

@@ -1,0 +1,6 @@
+2021-05-26 22:28:33.781 [test.TestMain.main()] DEBUG test.TestMain - LOGGER.debug
+2021-05-26 22:28:33.792 [test.TestMain.main()] INFO  test.TestMain - LOGGER.info
+2021-05-26 22:28:33.799 [test.TestMain.main()] WARN  test.TestMain - LOGGER.warn
+2021-05-26 22:28:33.808 [test.TestMain.main()] ERROR test.TestMain - LOGGER.error
+2021-05-26 22:28:33.815 [test.TestMain.main()] ERROR test.TestMain - LOGGER.error: дья
+2021-05-26 22:28:33.893 [test.TestMain.main()] INFO  utils.Utils - Filename to delete: CheckFiles-2021-05-26_220657.log

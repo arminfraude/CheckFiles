@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Built-By: Armin
+Build-Jdk: 15.0.2
+Class-Path: lib/ini4j-0.5.4.jar lib/log4j-api-2.13.0.jar lib/log4j-core-
+ 2.13.0.jar lib/poi-3.15.jar lib/commons-codec-1.10.jar lib/commons-coll
+ ections4-4.1.jar lib/poi-ooxml-3.15.jar lib/poi-ooxml-schemas-3.15.jar 
+ lib/xmlbeans-2.6.0.jar lib/stax-api-1.0.1.jar lib/curvesapi-1.04.jar li
+ b/commons-lang3-3.11.jar lib/commons-io-2.6.jar lib/jna-5.8.0.jar lib/j
+ na-platform-5.8.0.jar lib/jline-3.20.0.jar lib/jline-console-3.20.0.jar
+  lib/jline-terminal-3.20.0.jar lib/jline-terminal-jna-3.20.0.jar lib/jl
+ ine-reader-3.20.0.jar lib/jline-builtins-3.20.0.jar lib/jline-style-3.2
+ 0.0.jar lib/javatuples-1.2.jar
+Main-Class: main.CmdMain
+Created-By: Maven Integration for Eclipse
+
